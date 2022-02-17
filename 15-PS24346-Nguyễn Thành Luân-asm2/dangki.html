@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Đăng kí Cây cảnh </title>
+    <style>
+        body{
+            display: flex;
+            min-height: 100vh;
+            justify-content: center;
+            align-items: center;
+        }
+        .form{
+           
+            border: 2px solid gray;
+            width: 500px;
+        }
+        .form> input{
+            padding: 30px;
+        }
+        .khung{
+            width: 350px;
+        }
+    </style>
+</head>
+<body>
+    <form class="form">
+        <div>
+            <h1>Đăng kí</h1>
+             <input type="text" placeholder="Tên đăng nhập ">
+            <br>
+            <input type="password" placeholder="Mật khẩu"> <br>
+            <input type="password" placeholder="Xác nhận mật khẩu"> <br>
+            <input type="radio" name="gender"> Nam 
+            <input type="radio" name="gender">Nữ <br>
+            Ngày sinh: <br>
+            <input   class="khung2" type="date"> <br>
+             Nghề nghiệp: <br>
+            <input  list="nghenghiep">
+            <datalist id="nghenghiep">
+                <option >Học sinh</option>
+                <option>Giáo viên</option>
+                <option >Bác sĩ</option>
+                <option >Công nhân</option>
+                <option >Chủ tịch</option>
+            </datalist>  
+            <fieldset  class="khung">
+                <legend>Sở thích</legend> <br>
+                <label> <input type="checkbox" name="hobby" value="1"> Thế thao</label>
+                <label> <input type="checkbox" name="hobby" value="2">Du lịch</label> 
+                <label> <input type="checkbox" name="hobby" value="3">Âm nhạc</label> 
+                <label> <input type="checkbox" name="hobby" value="4">Ẩm thực</label> 
+            </fieldset>
+            
+            <br> <br><br>
+            <label ><button>Login</button></label> <br> <br>
+            <a class="dangki" href="">Đăng Nhập </a>
+            <div class="tc">
+                <a  class="trangchu" href="asm.html"> Trang chủ</a>
+             </div>
+        <div>
+     </form>
+     
+</body>
+</html>

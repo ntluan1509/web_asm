@@ -1,0 +1,174 @@
+body{
+    padding: 0px;
+    max-width: 98%;
+    margin: 0px auto ;
+   
+}
+.toanphan{
+    position: absolute;
+    top: -45px;
+    width: 98%;
+    
+}
+header{
+    height: 130px ;
+    background-image: url(img/nen2.jfif);
+    background-size: 100%;
+    background-repeat: none;
+}
+.tieude{
+    position: relative;
+    top: 40px;
+    left: 20px;
+    font-family:'Times New Roman', Times, serif;
+    font-size: 50px;
+    color: red;
+    font-style: italic;
+    font-weight: 300;
+}
+.search{
+   position: relative;
+   left: 350px;
+   bottom: 55px;
+}
+.search input{
+    border: 1px solid darkgray;
+    width: 650px;
+    height: 45px;
+    border-radius: 10px;
+    padding-left: 10px;
+}
+.dangnhap{
+    border: 2px solid blue;
+    border-radius: 20px;
+    width: 150px;
+    position: relative;
+    left: 1300px;
+    bottom: 120px; 
+    background-color: white;
+}
+.dangnhap> a{
+    position: relative;
+    bottom: 12px;
+    text-decoration: none;
+    font-size: large;
+    font-weight: bold;
+}
+.muahang{
+    border: 2px solid blue;
+    border-radius: 20px;
+    width: 140px;
+    background-color: white;
+    position: relative;
+    left: 1500px;
+    bottom: 180px;   
+}
+.muahang> a{
+    position: relative;
+    bottom: 15px;
+    text-decoration: none;
+    font-size: large;
+    font-weight: bold;
+}
+.o{
+    font-weight:25px ;
+}
+
+nav{
+    background: aqua;
+    line-height: 40px;
+}
+nav >a{
+    margin: 20px;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bold;
+    color: black;
+}
+.nav1 >a  :hover {
+    color: azure;
+    font-size: 15px;
+    text-shadow: 0 0 5px yellow;
+}
+
+aside{
+    background:white;
+    width: 20%;
+    min-height: 650px;
+    float: left;
+}
+.phanloai{
+    padding: 10px;
+}
+.phanloai .cay{
+    margin-left: 50px;
+}
+.phanloai>ul>li>a{
+    text-decoration: none;
+    font-size: 20px;
+    color: blueviolet;
+}
+.phanloai>ul>li>a:hover{
+    color: blue;
+    font-size: 25px;
+    text-shadow:0 0 5px yellow ;
+}
+article{
+    
+    min-height: 500px;
+    width: 80%;
+    float: left;
+}
+.anh .chau1{
+    width: 370px;
+    position: relative;
+    bottom: 10px;
+    left: 0px;
+    height: 250px;
+}
+.anh .chau2{
+    width: 370px;
+    position: relative;
+    top: 270px;
+    left: -375px;
+    height: 270px;
+}
+.anh .chau3{
+    width: 980px;
+    position: relative;
+    top: -265px;
+    left: 380px;
+    height: 530px;
+}
+footer{
+    clear: both;
+    height: 120px;
+    position: absolute;
+    bottom: 140px;
+    width: 100%;
+}
+.icon{
+    float: left;
+    margin-left: 60px ;
+}
+.icon > p {
+    position: relative;
+    right: 30px;
+    font-variant: small-caps;
+    font-size: large;
+    color: green;
+}
+.icon1 {
+    float: left;
+    margin-left: 90px;
+}
+.icon1 > h3 {
+    font-variant: small-caps;
+}
+.icon1 > p {
+    position: relative;
+    right: 70px;
+}
+iframe{
+    float: left;
+}
